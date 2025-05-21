@@ -1,4 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+body {
+  font-family: Arial;
+  margin: 20px;
+}
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgba(161, 33, 33, 0.1);
+    border-radius: 5px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 :root {
     --cor-primaria: #000000;
@@ -119,3 +138,15 @@ body{
 }
 
 
+.btn-azul-marinho {
+  background-color: #22D4FD; 
+  color: black;              
+  border: none;
+}
+
+.btn-azul-marinho:hover {
+  background-color: #22D4FD;
+}
+.bg-custom {
+  background-color: #000000; 
+}
